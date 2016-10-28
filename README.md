@@ -22,8 +22,8 @@ all files with code because it uses import system from python3 (example:
 App usage
 ---------
 
-Preferable to use virtualenv `https://virtualenvwrapper.readthedocs.io/en/latest/`
-carefully install home folder for it (until docker is not added)
+Preferable to use virtualenv (until docker is not added) `https://virtualenvwrapper.readthedocs.io/en/latest/`
+carefully install home folder for it
 
 `git pull ...`
 
