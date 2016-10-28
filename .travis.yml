@@ -1,0 +1,11 @@
+language: python
+python:
+  - "2.7"
+
+# add database
+
+install:
+  - pip install -Ur requirements.txt
+  # add database migration
+
+script: make test
