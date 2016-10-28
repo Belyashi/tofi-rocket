@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Belyashi/tofi-rocket.svg?branch=master)](https://travis-ci.org/Belyashi/tofi-rocket)
+[![codecov](https://codecov.io/gh/Belyashi/tofi-rocket/branch/master/graph/badge.svg)](https://codecov.io/gh/Belyashi/tofi-rocket)
 
 # tofi-rocket
 Back-end for TOFI project.
