@@ -12,6 +12,13 @@ Creating new app
 - Add to INSTALLED apps into settings.py as `'apps.{appname}'`
 
 
+Coding style
+------------
+Add `from __future__ import unicode_literals, absolute_import` into
+all files with code because it uses import system from python3 (example:
+`from .module import item`) and using unicode literals
+
+
 App usage
 ---------
 
