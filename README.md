@@ -4,15 +4,16 @@ Back-end for TOFI project.
 Creating new app
 ----------------
 
-- python manage.py startapp <appname>
-- mv <appname> apps/<appname>
-- Add to INSTALLED apps into settings.py as 'apps.<appname>'
+- `python manage.py startapp {appname}`
+- `mv {appname} apps/{appname}`
+- Add to INSTALLED apps into settings.py as `'apps.{appname}'`
 
 
 App usage
 ---------
 
 `git pull ...`
+
 `pip install -Ur requirements`
 
 - run tests: `make test`
