@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/Belyashi/tofi-rocket.svg?branch=master)](https://travis-ci.org/Belyashi/tofi-rocket)
 [![codecov](https://codecov.io/gh/Belyashi/tofi-rocket/branch/master/graph/badge.svg)](https://codecov.io/gh/Belyashi/tofi-rocket)
+[![Code Climate](https://codeclimate.com/github/Belyashi/tofi-rocket/badges/gpa.svg)](https://codeclimate.com/github/Belyashi/tofi-rocket)
+[![Test Coverage](https://codeclimate.com/github/Belyashi/tofi-rocket/badges/coverage.svg)](https://codeclimate.com/github/Belyashi/tofi-rocket/coverage)
 
 # tofi-rocket
 Back-end for TOFI project.
