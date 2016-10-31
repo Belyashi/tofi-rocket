@@ -22,17 +22,20 @@ all files with code because it uses import system from python3 (example:
 App usage
 ---------
 
-Preferable to use virtualenv (until docker is not added) `https://virtualenvwrapper.readthedocs.io/en/latest/`
-carefully install home folder for it
+- install `docker` (sudo apt-get install docker docker.io)
+- install `docker-compose` (sudo apt-get install docker-compose)
+
+Docker will be started on localhost in linux (MAC: docker-machine ip)
 
 `git pull ...`
 
-`pip install -Ur requirements`
+`docker-compose up`
+
+For running command into container change `command` item in `docker-compose.yml`
+on items described below:
 
 - run tests: `make test`
 - run dev server: `make dev`
 - run prod server: `make`
 - generate migrations: `make makemigrations`
 - apply migrations (generate migrations and migrate): `make migrate`
-
-# Docker will be added a little bit later
