@@ -13,10 +13,10 @@ python:
 
 install:
   - pip install -Ur requirements.txt
-  # add database migration
+  - pip install codecov
 
 script:
   - make test
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - codecov
