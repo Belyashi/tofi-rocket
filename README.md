@@ -27,7 +27,7 @@ App usage
 
 Docker will be started on localhost in linux (MAC: docker-machine ip)
 
-`git pull ...`
+`git clone https://github.com/Belyashi/tofi-rocket.git`
 
 `docker-compose up`
 
